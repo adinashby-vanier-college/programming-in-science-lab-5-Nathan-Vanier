@@ -16,6 +16,7 @@ def number_pattern(n):
   result = ''
   for j in range(1, i + 1):
     result = str(j)
+    result = "\n"
       # this adds it to a string
     return(result, "")
     
