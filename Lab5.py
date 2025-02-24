@@ -12,12 +12,12 @@ def hollow_square(n):
 # 123
 # 1234
 def number_pattern(n):
- for i in range(1, 4):
+ for i in range(1, n):
   result = ''
   for j in range(1, i + 1):
     result = str(j)
       # this adds it to a string
-    return(n, "")
+    return(result, "")
     
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
