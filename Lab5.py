@@ -13,7 +13,7 @@ def hollow_square(n):
 # 1234
 def number_pattern(n):
     result = ''
-    for i in range(1, n):
+    for i in range(1, n + 1):
         
         for j in range(1, i + 1):
             result = str(j)
